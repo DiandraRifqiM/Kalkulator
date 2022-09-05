@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(198, 67, 242);
+}
+
+.container {
+  width: 300px;
+  background-color: aqua;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.button {
+  padding: 10px;
+  flex-basis: 20%;
+}
+
+.displayNumber {
+  text-align: right;
+}
