@@ -1,3 +1,5 @@
+AOS.init();
+
 const calculator = {
   displayNumber: "0",
   operator: null,
@@ -93,4 +95,6 @@ function performCalculation() {
   }
 
   calculator.displayNumber = result;
+  calculator.operator = null;
+  calculator.waitingForSecondNumber = false;
 }

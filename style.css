@@ -1,11 +1,13 @@
 body {
   background-color: rgb(253, 248, 255);
-  height: 700px;
+  height: 850px;
+  margin: 0;
+  padding: 0;
 }
 
-p {
+.TeksBergerak {
+  background-color: rgb(13, 120, 241);
   color: red;
-  font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -19,6 +21,8 @@ p {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .flex-container {
